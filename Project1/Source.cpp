@@ -29,7 +29,8 @@ void CannyThreshold(int, void*) {
 	Canny(detected_edges, detected_edges, lowThreshold, lowThreshold*ratio, kernel_size);
 	dst = Scalar::all(0);
 	src.copyTo(dst, detected_edges);
-	//hello
+	// hello ttt
+	
 }
 
 
